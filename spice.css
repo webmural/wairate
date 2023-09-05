@@ -1,0 +1,18 @@
+:root {
+  background: hotpink;
+  background-image: conic-gradient(gold, violet, deepskyblue, hotpink, salmon, turquoise, fuchsia, gold);
+  color: #0e0e0e;
+}
+
+:any-link {
+  color: #0e0e0e;
+}
+
+::selection {
+  background: #0e0e0e;
+  color: #ec0;
+}
+
+:any-link { text-decoration-color: purple }
+:focus { text-decoration-color: indigo }
+:hover { text-decoration-color: indigo }
